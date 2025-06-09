@@ -1,12 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo animate-fade-in">Tejas Jiddewar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" class="animate-fade-in">About</a></li>
+          <li><a href="#experience" class="animate-fade-in">Experience</a></li>
+          <li><a href="#projects" class="animate-fade-in">Projects</a></li>
+          <li><a href="#contact" class="animate-fade-in">Contact</a></li>
+        </ul>
+      </div>
+      <div class="theme-switcher animate-fade-in">
+        <img
+          src="tejas_port__1/mooonn.jpg"
+          alt="Theme switcher icon"
+          class="icon"
+          onclick="toggleTheme()"
+        />
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Tejas Jiddewar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <img
+              src="tejas_port__1/mooonn.jpg"
+              alt="Theme switcher icon"
+              class="icon"
+              onclick="toggleTheme()"
+            />
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" class="fade-in">
+      <div class="section__pic-container animate-fade-in-left">
+        <img src="tejas_port__1/tj_photo.png" alt="Tejas Jiddewar profile picture" />
+      </div>
+      <div class="section__text animate-fade-in-right">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Tejas Jiddewar</h1>
+        <p class="section__text__p2" id="typewriter"></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('tejas_port__1/tejas_resume__.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="tejas_port__1/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="tejas_port__1/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="slide-in">
+      <p class="section__text__p1 animate-on-scroll">Get To Know More</p>
+      <h1 class="title animate-on-scroll">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container animate-on-scroll">
+          <img
+            src="tejas_port__1/ts_logo.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container animate-on-scroll">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="tejas_port__1/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                3+ Projects<br />
+                Data Science & Analytics
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="tejas_port__1/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E. Bachelors Degree<br />Computer Science Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              A Computer Science student with a passion for Data Science and
+              Analytics. I specialize in transforming raw data into actionable
+              insights with modern visualization tools. My goal is to leverage
+              my skills to create data-driven solutions that solve real-world
+              problems.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="tejas_port__1/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience" class="slide-in">
+      <p class="section__text__p1 animate-on-scroll">Explore My</p>
+      <h1 class="title animate-on-scroll">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container animate-on-scroll">
+            <h2 class="experience-sub-title">Data Science & Analytics</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container animate-on-scroll">
+            <h2 class="experience-sub-title">Other Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="tejas_port__1/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="tejas_port__1/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects" class="slide-in">
+      <p class="section__text__p1 animate-on-scroll">Browse My Recent</p>
+      <h1 class="title animate-on-scroll">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container animate-on-scroll">
+            <div class="article-container">
+              <img
+                src="tejas_port__1/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container animate-on-scroll">
+            <div class="article-container">
+              <img
+                src="tejas_port__1/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container animate-on-scroll">
+            <div class="article-container">
+              <img
+                src="tejas_port__1/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="tejas_port__1/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact" class="slide-in">
+      <p class="section__text__p1 animate-on-scroll">Get In Touch</p>
+      <h1 class="title animate-on-scroll">Contact Me</h1>
+      <div class="contact-grid-container animate-on-scroll">
+        <div class="contact-form-container">
+          <h2>Send Message</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-color-1">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-details-container">
+          <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p><img src="tejas_port__1/email.png" alt="Email icon" class="icon contact-icon"> <a href="mailto:tejajiddewar95@gmail.com">tejajiddewar95@gmail.com</a></p>
+            <p><img src="tejas_port__1/phone.png" alt="Phone icon" class="icon contact-icon"> +91 7758898765</p>
+            <p><img src="tejas_port__1/location.png" alt="Location icon" class="icon contact-icon"> Nagpur, Maharashtra, India</p>
+          </div>
+          <div class="connect-with-me">
+            <h2>Connect With Me</h2>
+            <div class="socials-container">
+              <img
+                src="tejas_port__1/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/tejas-jiddewar/'"
+              />
+              <img
+                src="tejas_port__1/github.png"
+                alt="Github icon"
+                class="icon"
+                onclick="location.href='https://github.com/TejasJiddewar'"
+              />
+              <img
+                src="tejas_port__1/twitter.png"
+                alt="Twitter icon"
+                class="icon"
+                onclick="location.href='https://twitter.com/'"
+              />
+              <img
+                src="tejas_port__1/instagram.png"
+                alt="Instagram icon"
+                class="icon"
+                onclick="location.href='https://www.instagram.com/'"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Tejas Jiddewar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
