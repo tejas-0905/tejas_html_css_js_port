@@ -88,3 +88,11 @@ a:hover {
   cursor: pointer;
   height: 2rem;
 }
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
