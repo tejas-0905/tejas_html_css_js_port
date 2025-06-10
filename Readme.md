@@ -21,4 +21,16 @@ This is a responsive and modern personal portfolio website built using **HTML**,
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Frontend**:  
+  - HTML5  
+  - CSS3  
+  - JavaScript (vanilla)
+
+- **Libraries/Assets**:  
+  - Custom animation & scroll effects  
+  - Responsive layout with `mediaqueries.css`
+
+---
 
