@@ -74,3 +74,12 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: var(--primary-color);
 }
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.logo:hover {
+  cursor: default;
+}
