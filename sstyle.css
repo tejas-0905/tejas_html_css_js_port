@@ -27,3 +27,10 @@ body.dark-theme {
 html {
   scroll-behavior: smooth;
 }
+p {
+  color: var(--secondary-color);
+}
+
+body.dark-theme p {
+  color: var(--grey-dark);
+}
