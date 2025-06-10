@@ -34,3 +34,7 @@ p {
 body.dark-theme p {
   color: var(--grey-dark);
 }
+a,
+.btn {
+  transition: all 300ms ease;
+}
