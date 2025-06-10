@@ -20,3 +20,7 @@ body {
   background-color: var(--background-light);
   color: var(--text-light);
 }
+body.dark-theme {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
