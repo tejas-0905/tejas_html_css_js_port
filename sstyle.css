@@ -83,3 +83,8 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
+.theme-switcher .icon {
+  cursor: pointer;
+  height: 2rem;
+}
