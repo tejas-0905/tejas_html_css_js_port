@@ -53,3 +53,24 @@ nav {
 body.dark-theme nav {
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
 }
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+body.dark-theme a {
+  color: var(--text-dark);
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: var(--primary-color);
+}
