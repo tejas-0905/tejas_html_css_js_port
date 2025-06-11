@@ -269,7 +269,24 @@ body.dark-theme .btn-color-1:hover {
   color: var(--text-light);
   border-color: var(--background-light);
 }
+.btn-color-2 {
+  background: none;
+  color: var(--primary-color);
+}
 
+.btn-color-2:hover {
+  background: var(--primary-color);
+  color: var(--background-light);
+}
+
+body.dark-theme .btn-color-2 {
+  color: var(--primary-color);
+}
+
+body.dark-theme .btn-color-2:hover {
+  background: var(--primary-color);
+  color: var(--background-dark);
+}
 
 
 
