@@ -133,7 +133,23 @@ body.dark-theme .menu-links {
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
 
+body.dark-theme .menu-links a {
+  color: var(--text-dark);
+}
+
+.menu-links li {
+  list-style: none;
+}
 
 
 
