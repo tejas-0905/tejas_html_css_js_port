@@ -287,7 +287,25 @@ body.dark-theme .btn-color-2:hover {
   background: var(--primary-color);
   color: var(--background-dark);
 }
+#about {
+  position: relative;
+}
 
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
 
 
 
