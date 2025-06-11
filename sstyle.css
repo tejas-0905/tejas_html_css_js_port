@@ -248,7 +248,27 @@ section {
   border-radius: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.btn-color-1,
+.btn-color-2 {
+  border: var(--primary-color) 0.1rem solid;
+}
 
+.btn-color-1 {
+  background: var(--primary-color);
+  color: var(--background-light);
+}
+
+.btn-color-1:hover {
+  background: var(--text-light);
+  color: var(--background-light);
+  border-color: var(--text-light);
+}
+
+body.dark-theme .btn-color-1:hover {
+  background: var(--background-light);
+  color: var(--text-light);
+  border-color: var(--background-light);
+}
 
 
 
