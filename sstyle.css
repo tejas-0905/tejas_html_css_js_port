@@ -215,4 +215,7 @@ section {
   margin-bottom: 1rem;
   color: var(--primary-color);
 }
-
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
