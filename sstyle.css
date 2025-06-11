@@ -185,6 +185,16 @@ section {
   gap: 5rem;
   height: 80vh;
 }
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
 
+.section__pic-container img {
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--primary-color);
+}
 
 
