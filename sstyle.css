@@ -315,7 +315,11 @@ body.dark-theme .btn-color-2:hover {
 body.dark-theme .about-pic {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
-
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
 
 
 
