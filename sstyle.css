@@ -225,7 +225,15 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  transition: transform 0.3s ease;
+}
 
+.icon:hover {
+  transform: scale(1.2);
+}
 
 
 
