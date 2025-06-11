@@ -196,5 +196,23 @@ section {
   border-radius: 50%;
   box-shadow: 0 0 25px var(--primary-color);
 }
+.section__text {
+  align-self: center;
+  text-align: center;
+}
 
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
 
