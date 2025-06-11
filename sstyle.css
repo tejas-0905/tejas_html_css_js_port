@@ -151,7 +151,21 @@ body.dark-theme .menu-links a {
   list-style: none;
 }
 
+.menu-links.open {
+  max-height: 300px;
+}
 
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
 
 
 
