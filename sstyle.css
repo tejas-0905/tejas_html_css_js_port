@@ -235,7 +235,11 @@ section {
   transform: scale(1.2);
 }
 
-
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
 
 
