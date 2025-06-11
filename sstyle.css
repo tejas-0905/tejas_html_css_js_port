@@ -340,7 +340,10 @@ body.dark-theme .details-container {
   background: var(--secondary-color);
   border-color: var(--primary-color);
 }
-
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
 
 
 
