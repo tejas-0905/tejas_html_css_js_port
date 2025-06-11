@@ -307,7 +307,14 @@ body.dark-theme .btn-color-2:hover {
   display: flex;
 }
 
+.about-pic {
+  border-radius: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
 
+body.dark-theme .about-pic {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
 
 
 
