@@ -556,7 +556,20 @@ body.dark-theme .contact-form-container {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
 }
+.form-group {
+  margin-bottom: 1rem;
+}
 
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+body.dark-theme .form-group label {
+  color: var(--grey-dark);
+}
 
 
 
