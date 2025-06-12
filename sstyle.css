@@ -536,7 +536,12 @@ footer p {
   height: auto;
   padding-bottom: 5vh;
 }
-
+.contact-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
 
 
