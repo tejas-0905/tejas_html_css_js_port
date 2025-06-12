@@ -430,7 +430,21 @@ body.dark-theme .project-btn {
   flex-direction: column;
   height: 70vh;
 }
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: var(--secondary-color) 0.1rem solid;
+  background: var(--grey-light);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
 
+body.dark-theme .contact-info-upper-container {
+  background: var(--secondary-color);
+  border-color: var(--primary-color);
+}
 
 
 
