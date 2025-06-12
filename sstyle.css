@@ -498,7 +498,16 @@ footer p {
   from { opacity: 0; transform: translateX(-50px); }
   to { opacity: 1; transform: translateX(0); }
 }
+.animate-fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fadeInRight 1s ease-in-out forwards;
+}
 
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
 
 
 
