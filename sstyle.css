@@ -445,7 +445,25 @@ body.dark-theme .contact-info-upper-container {
   background: var(--secondary-color);
   border-color: var(--primary-color);
 }
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
 
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
 
 
 
