@@ -532,7 +532,10 @@ footer p {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-
+#contact {
+  height: auto;
+  padding-bottom: 5vh;
+}
 
 
 
