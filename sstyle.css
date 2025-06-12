@@ -392,7 +392,16 @@ body.dark-theme .color-container {
   border-color: var(--primary-color);
   background: var(--secondary-color);
 }
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+  transition: transform 0.3s ease;
+}
 
+.project-img:hover {
+  transform: scale(1.05);
+}
 
 
 
