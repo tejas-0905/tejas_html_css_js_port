@@ -518,7 +518,20 @@ footer p {
   opacity: 1;
   transform: translateY(0);
 }
+#typewriter {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation: 
+    blinking-cursor .75s step-end infinite;
+}
 
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 
 
 
