@@ -344,7 +344,16 @@ body.dark-theme .details-container {
   gap: 4rem;
   height: 80%;
 }
+#experience {
+  position: relative;
+}
 
+.experience-sub-title {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
 
 
 
