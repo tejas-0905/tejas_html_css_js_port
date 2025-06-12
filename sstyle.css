@@ -354,7 +354,31 @@ body.dark-theme .details-container {
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
 
 
 
