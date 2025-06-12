@@ -542,7 +542,16 @@ footer p {
   gap: 2rem;
   margin-top: 2rem;
 }
+.contact-form-container {
+  padding: 2rem;
+  background: var(--grey-light);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+body.dark-theme .contact-form-container {
+  background: var(--secondary-color);
+}
 
 
 
