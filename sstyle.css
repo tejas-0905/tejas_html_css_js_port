@@ -424,7 +424,12 @@ body.dark-theme .project-btn {
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
-
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
 
 
 
