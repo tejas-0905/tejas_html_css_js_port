@@ -402,7 +402,14 @@ body.dark-theme .color-container {
 .project-img:hover {
   transform: scale(1.05);
 }
+.project-title {
+  margin: 1rem;
+  color: var(--text-light);
+}
 
+body.dark-theme .project-title {
+  color: var(--text-dark);
+}
 
 
 
