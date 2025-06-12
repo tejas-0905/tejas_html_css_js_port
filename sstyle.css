@@ -464,7 +464,20 @@ body.dark-theme .contact-info-upper-container {
 .email-icon {
   height: 2.5rem;
 }
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  border-top: 1px solid var(--grey-dark);
+  padding-top: 2rem;
+}
 
+body.dark-theme footer {
+  border-top: 1px solid var(--secondary-color);
+}
+
+footer p {
+  text-align: center;
+}
 
 
 
