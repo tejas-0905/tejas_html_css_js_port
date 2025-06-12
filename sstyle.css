@@ -410,7 +410,20 @@ body.dark-theme .color-container {
 body.dark-theme .project-title {
   color: var(--text-dark);
 }
+.project-btn {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
 
+.project-btn:hover {
+  background: var(--primary-color);
+  color: var(--background-light);
+}
+
+body.dark-theme .project-btn {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
 
 
 
