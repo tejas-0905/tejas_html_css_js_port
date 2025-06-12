@@ -379,7 +379,19 @@ article {
 article .icon {
   cursor: default;
 }
+#projects {
+  position: relative;
+}
 
+.color-container {
+  border-color: var(--grey-dark);
+  background: var(--grey-light);
+}
+
+body.dark-theme .color-container {
+  border-color: var(--primary-color);
+  background: var(--secondary-color);
+}
 
 
 
