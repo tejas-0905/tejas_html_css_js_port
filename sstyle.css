@@ -552,7 +552,10 @@ footer p {
 body.dark-theme .contact-form-container {
   background: var(--secondary-color);
 }
-
+.contact-form-container h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
 
 
 
