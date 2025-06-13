@@ -622,7 +622,26 @@ body.dark-theme .contact-details-container {
   color: inherit;
 }
 
+.connect-with-me h2 {
+  margin-top: 2rem;
+}
 
+.connect-with-me .socials-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.connect-with-me .socials-container img {
+  height: 2.5rem;
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.connect-with-me .socials-container img:hover {
+  transform: scale(1.1);
+}
 
 
 
