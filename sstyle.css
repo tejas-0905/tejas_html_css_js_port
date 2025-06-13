@@ -605,7 +605,10 @@ body.dark-theme .form-group textarea {
 body.dark-theme .contact-details-container {
   background: var(--secondary-color);
 }
-
+.contact-details-container h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
 
 
 
