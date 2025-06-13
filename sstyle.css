@@ -697,7 +697,15 @@ section {
   text-align: center;
   display: none;
 }
-
+.error-message {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: none;
+}
 
 
 
