@@ -688,7 +688,15 @@ section {
   animation: spin 1s linear infinite;
   margin: 2rem auto;
 }
-
+.success-message {
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: none;
+}
 
 
 
