@@ -609,7 +609,18 @@ body.dark-theme .contact-details-container {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
 }
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
 
+.contact-info p a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 
