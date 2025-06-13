@@ -592,7 +592,19 @@ body.dark-theme .form-group textarea {
 .form-group textarea {
   resize: vertical;
 }
+.contact-details-container {
+  padding: 2rem;
+  background: var(--grey-light);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+body.dark-theme .contact-details-container {
+  background: var(--secondary-color);
+}
 
 
 
