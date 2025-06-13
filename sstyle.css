@@ -642,7 +642,15 @@ body.dark-theme .contact-details-container {
 .connect-with-me .socials-container img:hover {
   transform: scale(1.1);
 }
+@media screen and (max-width: 800px) {
+  .contact-grid-container {
+    grid-template-columns: 1fr;
+  }
 
+  .contact-details-container .connect-with-me h2 {
+    margin-top: 1rem;
+  }
+}
 
 
 
