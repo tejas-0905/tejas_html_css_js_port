@@ -1127,3 +1127,19 @@ body.dark-theme .panel {
 .carousel-indicator.active {
   background: white;
 }
+.countup {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.countup-label {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+body.dark-theme .countup-label {
+  color: var(--grey-dark);
+}
