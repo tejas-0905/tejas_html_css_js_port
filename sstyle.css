@@ -915,3 +915,21 @@ body.dark-theme .price-period {
   color: var(--grey-dark);
 }
 
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.feature-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--grey-dark);
+}
+
+body.dark-theme .feature-list li {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
