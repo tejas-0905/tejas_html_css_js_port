@@ -1207,3 +1207,18 @@ body.dark-theme .countup-label {
 .pulse {
   animation: pulse 2s infinite;
 }
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
