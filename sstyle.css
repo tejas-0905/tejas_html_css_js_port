@@ -973,3 +973,33 @@ body.dark-theme .modal-content {
 body.dark-theme .close-modal {
   color: var(--grey-dark);
 }
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--grey-dark);
+  margin-bottom: 1rem;
+}
+
+body.dark-theme .tabs {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  border-bottom: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
