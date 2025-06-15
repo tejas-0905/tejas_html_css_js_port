@@ -832,7 +832,29 @@ body.dark-theme .timeline-content {
   background-color: var(--secondary-color);
 }
 
+@media screen and (max-width: 768px) {
+  .timeline::after {
+    left: 31px;
+  }
 
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline-item::after {
+    left: 18px;
+  }
+
+  .left::after, .right::after {
+    left: 18px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
 
 
 
