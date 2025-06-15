@@ -1471,3 +1471,16 @@ body.dark-theme .countup-label {
 .rollOut {
   animation: rollOut 1s;
 }
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation: zoomIn 0.5s;
+}
