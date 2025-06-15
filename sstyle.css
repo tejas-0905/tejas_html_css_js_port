@@ -855,6 +855,26 @@ body.dark-theme .timeline-content {
     left: 0%;
   }
 }
+.testimonial {
+  background-color: var(--grey-light);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+body.dark-theme .testimonial {
+  background-color: var(--secondary-color);
+}
+
+.testimonial-content {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
 
 
