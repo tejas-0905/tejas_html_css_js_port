@@ -1003,3 +1003,54 @@ body.dark-theme .tabs {
 .tab-content.active {
   display: block;
 }
+.accordion {
+  background-color: var(--grey-light);
+  color: var(--text-light);
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+body.dark-theme .accordion {
+  background-color: var(--secondary-color);
+  color: var(--text-dark);
+}
+
+.accordion:hover {
+  background-color: var(--grey-dark);
+}
+
+body.dark-theme .accordion:hover {
+  background-color: var(--primary-color);
+}
+
+.accordion:after {
+  content: '\002B';
+  color: var(--primary-color);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 1rem;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+body.dark-theme .panel {
+  background-color: var(--background-dark);
+}
