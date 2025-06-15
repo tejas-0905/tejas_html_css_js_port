@@ -809,7 +809,17 @@ body.dark-theme .progress-container {
   z-index: 1;
 }
 
+.left {
+  left: 0;
+}
 
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -12px;
+}
 
 
 
