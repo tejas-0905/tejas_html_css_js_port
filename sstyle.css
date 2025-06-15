@@ -876,5 +876,42 @@ body.dark-theme .testimonial {
   font-weight: bold;
   text-align: right;
 }
+.pricing-card {
+  background: var(--grey-light);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 1rem;
+}
 
+body.dark-theme .pricing-card {
+  background: var(--secondary-color);
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-header {
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 1rem 0;
+}
+
+.price-period {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+body.dark-theme .price-period {
+  color: var(--grey-dark);
+}
 
