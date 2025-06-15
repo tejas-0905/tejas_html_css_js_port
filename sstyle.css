@@ -1522,3 +1522,16 @@ body.dark-theme .countup-label {
 .lightSpeedIn {
   animation: lightSpeedIn 1s ease-out;
 }
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+.lightSpeedOut {
+  animation: lightSpeedOut 1s ease-in;
+}
