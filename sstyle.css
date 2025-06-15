@@ -1192,3 +1192,18 @@ body.dark-theme .countup-label {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
