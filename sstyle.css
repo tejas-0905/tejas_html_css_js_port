@@ -820,7 +820,17 @@ body.dark-theme .progress-container {
 .right::after {
   left: -12px;
 }
+.timeline-content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+body.dark-theme .timeline-content {
+  background-color: var(--secondary-color);
+}
 
 
 
